@@ -4,7 +4,7 @@ use strict;
 use Getopt::Long;
 use FileHandle;
 
-my $opt_sakila_dir = "./";
+my $opt_sakila_dir = "./test_db";
 my $opt_output_dir = ".";
 
 sub parse_data_line($) {
